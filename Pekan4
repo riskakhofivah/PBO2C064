@@ -1,1 +1,28 @@
+// Class utama
+class Mahasiswa {
+    String nama;
+    String nim;
 
+    // Constructor
+    Mahasiswa(String nama, String nim) {
+        this.nama = nama;
+        this.nim = nim;
+    }
+
+    // Method untuk menampilkan data
+    void tampilkanData() {
+        System.out.println("Nama : " + nama);
+        System.out.println("NIM  : " + nim);
+    }
+}
+
+// Class Main
+public class Main {
+    public static void main(String[] args) {
+        // Membuat objek dengan constructor
+        Mahasiswa mhs1 = new Mahasiswa("Riska", "250631100064");
+
+        // Menampilkan data
+        mhs1.tampilkanData();
+    }
+}
