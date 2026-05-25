@@ -1,0 +1,14 @@
+
+public class Latihan1 {
+    
+    int x; 
+
+    public Main() {
+        x = 5;
+    }
+
+    public static void main(String[] args) {
+        Main myObj = new Main(); 
+        System.out.println(myObj.x); 
+    }
+}
